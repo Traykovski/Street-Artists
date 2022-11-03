@@ -398,8 +398,9 @@
     position: fixed;
     width: 65px;
     height: 67px;
-    left: 335px;
-    top: 780px;
+    left: 320px;
+    bottom: 12px;
+    margin-top: 680px;
     z-index: 100;
     background: #d54c2e;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
@@ -457,10 +458,10 @@
   /* visitor filters page */
   .filter {
     background-color: #a26a5e;
-    height: 100vh;
+    height: 112vh;
     overflow: hidden;
     padding-top: 37px;
-    padding-left: 20px !important;
+    /* padding-left: 20px !important; */
   }
   .filter-by {
     display: flex;
@@ -1430,4 +1431,3 @@
     width: 70px;
   }
 }
-
