@@ -1,0 +1,1433 @@
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+
+  * {
+    box-sizing: content-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: #fcebd5;
+    font-family: "Roboto";
+    color: #a26a5e;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol {
+    margin-top: 0;
+  }
+  h6 {
+    margin-left: 20px;
+  }
+  section {
+    display: none;
+  }
+
+  /* landing page */
+  #landing-page {
+    overflow: hidden;
+  }
+  #visitor-listing-page {
+    background-color: #edd5bb;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  header {
+    border-bottom: 1px solid;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  a {
+    text-decoration: none;
+    color: none;
+  }
+
+  #artistName1,
+  #artistName,
+  #artistName3,
+  #artistName4,
+  h6 {
+    font-family: "Reenie Beanie";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h6 {
+    margin-top: 20px;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .street-artists-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .logo-two {
+    padding: 10px;
+    height: 15vh;
+  }
+  .container {
+    display: grid;
+    place-items: center;
+    height: 380px;
+  }
+  #sign-in {
+    padding: right 20px;
+  }
+  .vector {
+    background-image: url(../img/Vector\ 1.png), url(../img/Vector\ 2.png);
+    background-position: top, bottom, right top;
+    background-repeat: no-repeat;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Join as Artist */
+  .artist {
+    background-image: url(../img/Join\ as\ Artist.png);
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    position: absolute;
+    width: 214px;
+    height: 46px;
+    left: 77px;
+    top: 340px;
+  }
+  /* Join as Visitor */
+  .visitor {
+    background-image: url(../img/Join\ as\ Visitor.png);
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    position: absolute;
+    width: 210px;
+    height: 45px;
+    left: 77px;
+    top: 580px;
+    color: #fcebd5;
+  }
+
+  /* Dropdown */
+  .select {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 150px;
+
+    margin-left: 60px;
+  }
+
+  .option {
+    width: inherit;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    background: #edd5bb;
+    border: 1px solid #a26a5e;
+    border-radius: 2px;
+    padding-left: 10px;
+    position: absolute !important;
+    pointer-events: none;
+    order: 2;
+    z-index: 1;
+    transition: background 0.4s ease-in-out;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    left: 15.46%;
+    right: 39.18%;
+    top: 22.22%;
+    bottom: 22.22%;
+    color: #a26a5e;
+  }
+
+  .option:hover {
+    background: #edd5bb;
+  }
+  .select:focus .option {
+    position: relative;
+    pointer-events: all;
+  }
+
+  /* visitor home page */
+  .auction-icon {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  .header-visitor {
+    background-color: #fcebd5;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    height: 12vh;
+  }
+  .street-artists {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .hero {
+    background-image: url(../img/Bricks.png);
+    height: 15vh;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+  }
+  .masterpiece {
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .find {
+    position: absolute;
+    margin-top: 30px;
+    width: 113px;
+    right: 18px;
+    top: 14.4%;
+    bottom: 82.59%;
+    padding-left: 12px;
+    height: 30px;
+    padding-top: 5px;
+    background: #a26a5e;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 25%);
+    border-radius: 2px;
+    text-decoration: none;
+    color: #fcebd5;
+  }
+  .h1 {
+    position: absolute;
+    left: 4.11%;
+    right: 49.52%;
+    top: 16.17%;
+  }
+
+  /* slider - 1*/
+  .overflow-hidden {
+    overflow: hidden;
+    background-color: #edd5bb;
+  }
+  .slider-container {
+    animation: moveleft 17s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin-bottom: 8px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .slider-container img {
+    margin: 15px 15px 15px 5px;
+    padding-top: 5px;
+  }
+
+  @keyframes moveleft {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-50%, 0);
+    }
+  }
+
+  /* slider - 2 */
+  .slider-container-right {
+    animation: moveright 18s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin-bottom: 8px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .slider-container-right img {
+    margin: 5px 15px 15px 5px;
+  }
+  @keyframes moveright {
+    0% {
+      transform: translate(-50%, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  /* carousel */
+  .carousel-control-prev-icon {
+    background-image: url(../img/arrow-left.png);
+  }
+  .carousel-control-next-icon {
+    background-image: url(../img/arrow-right.png);
+  }
+  .mySlide {
+    width: 100%;
+    height: 0;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    margin-top: 30px;
+    height: 20%;
+    width: 30%;
+  }
+  .carousel-inner {
+    margin-bottom: 50px;
+  }
+  .content-one {
+    background-color: #e09686;
+    width: 110px;
+    height: 140px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+  .content-two {
+    color: #a26a5e;
+    width: 150px;
+    font-size: 13px;
+  }
+  .content-one-1 {
+    background-color: #d54c2e;
+    width: 110px;
+    height: 140px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+  .content-one1 {
+    background-color: #af796d;
+    width: 110px;
+    height: 140px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .other {
+    margin-top: 100px;
+  }
+  .img {
+    position: relative;
+    z-index: 2;
+    height: 30vh;
+    margin-left: 30px;
+  }
+  .line {
+    width: 1px;
+    height: 200px;
+    background-color: #a26a5e;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .my-img {
+    position: absolute;
+    top: -20px;
+
+    z-index: 2;
+    left: 25px;
+    padding-left: 60px;
+  }
+
+  /* visitor listing page */
+  .mybtn {
+    margin-left: 300px;
+    margin-top: -260px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .mybtn:nth-child(even) {
+    background-color: #a26a5e;
+    color: #fcebd5;
+  }
+  .mybtn:nth-child(odd) {
+    background-color: #fcebd5;
+    color: #a26a5e;
+  }
+
+  .cardImg {
+    height: 20vh;
+  }
+
+  .card1:nth-child(even) {
+    background-color: #a26a5e;
+    color: #fcebd5;
+  }
+  .card1:nth-child(odd) {
+    background-color: #fcebd5;
+    color: #a26a5e;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* filter button */
+  .filter-btn {
+    display: flex;
+    position: fixed;
+    width: 65px;
+    height: 67px;
+    left: 335px;
+    top: 780px;
+    z-index: 100;
+    background: #d54c2e;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  .vertical-line1 {
+    position: absolute;
+    width: 3.94px;
+    height: 40.99px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #fcebd5;
+  }
+  .vertical-line2 {
+    position: absolute;
+    width: 3.94px;
+    height: 40.99px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #fcebd5;
+  }
+  .vertical-line3 {
+    position: absolute;
+    width: 3.94px;
+    height: 40.99px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: #fcebd5;
+  }
+  .horizontal-line1 {
+    position: absolute;
+    width: 11.82px;
+    height: 4.73px;
+    margin-top: 39px;
+    margin-left: 6px;
+    background: #fcebd5;
+  }
+  .horizontal-line2 {
+    position: absolute;
+    width: 11.82px;
+    height: 4.73px;
+    margin-top: 18px;
+    margin-left: 26px;
+    background: #fcebd5;
+  }
+  .horizontal-line3 {
+    position: absolute;
+    width: 11.82px;
+    height: 4.73px;
+    margin-top: 27px;
+    margin-left: 46px;
+    background: #fcebd5;
+  }
+
+  /* visitor filters page */
+  .filter {
+    background-color: #a26a5e;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 37px;
+    padding-left: 20px !important;
+  }
+  .filter-by {
+    display: flex;
+  }
+  .filter-by p {
+    position: absolute;
+    left: 17px;
+    top: 101px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fcebd5;
+  }
+  .xmark {
+    font-size: 50px;
+    color: #fcebd5;
+    margin-left: 345px;
+  }
+  .selected {
+    position: absolute;
+    width: 65px;
+    height: 67px;
+    left: 338px;
+    top: 910px;
+    background: #d54c2e;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  .selected a img {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    padding-left: 15px;
+    padding-top: 12px;
+  }
+  .visitor-form {
+    margin-left: 20px;
+  }
+  input {
+    background-color: #a26a5e;
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 115px;
+    color: #edd5bb;
+  }
+  label {
+    color: #edd5bb;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  hr {
+    color: #fcebd5;
+    width: 378px;
+  }
+  .price {
+    display: flex;
+    margin-top: 30px;
+  }
+  .price input {
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  .p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #edd5bb;
+  }
+  .label {
+    margin-left: 60px;
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #edd5bb;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #edd5bb;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #edd5bb;
+  }
+
+  .select-dropdown {
+    background-color: #a26a5e;
+    box-sizing: border-box;
+    margin: 0;
+    mix-blend-mode: normal;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    height: 29px;
+    width: 120px;
+    color: #edd5bb;
+    background-image: none;
+    cursor: pointer;
+    transition: background 0.4s ease-in-out;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  /* artist home page */
+  .header-artist {
+    background-color: #fcebd5;
+    margin-top: -20px;
+    height: 13vh;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .hamburger {
+    position: relative;
+    z-index: 9000;
+    width: 40px;
+    height: 40px;
+  }
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  .hamburger-line {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #a26a5e;
+    margin-bottom: 8px;
+  }
+  .hamburger-line:last-child {
+    margin-bottom: 0;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .collapse {
+    position: absolute;
+    font-weight: 300 !important;
+    font-size: 32px !important;
+    line-height: 50px !important;
+    color: #fcebd5;
+    background-color: #a26a5e !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 0%;
+    right: 0%;
+    width: 426px;
+    top: 75%;
+    bottom: -110%;
+    overflow: hidden;
+  }
+  .collapse ul li a {
+    color: #fcebd5 !important;
+  }
+  .nav-fullscreen {
+    position: fixed;
+    display: flex;
+    z-index: 800;
+    height: 25vh;
+    top: 10%;
+    bottom: 46.92%;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0s;
+  }
+  .nav-fullscreen--open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .wrapper {
+    background-color: #edd5bb;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+  .contain {
+    display: flex;
+    padding: 20px 10px;
+  }
+  .total-items,
+  .total-income {
+    background-color: #a26a5e;
+    margin-left: 7px;
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 185px;
+    height: 120px;
+  }
+  .total-income {
+    margin-left: 20px;
+  }
+  .total-income p,
+  .total-items p {
+    color: #fcebd5;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+  .total-items h4,
+  .total-income h4 {
+    left: 11.35%;
+    right: 11.35%;
+    top: 40.83%;
+    bottom: 12.5%;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fcebd5;
+  }
+  .auctioning-item {
+    background-color: #d54c2e;
+    width: 390px;
+    height: 120px;
+    margin-left: 17px;
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  .auctioning-item p {
+    text-transform: capitalize;
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fcebd5;
+  }
+  .auctioning-item h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fcebd5;
+  }
+  .buttons {
+    display: flex;
+  }
+  .wrap {
+    background-color: #fcebd5;
+  }
+  .contains {
+    margin-left: 22px;
+  }
+  .contains p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    color: #a26a5e;
+    margin-top: 20px;
+  }
+  .btn-one,
+  .btn-three {
+    width: 100px;
+    height: 27px;
+    color: #fcebd5;
+    border: none;
+    background: #a26a5e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  .btn-two {
+    width: 100px;
+    height: 27px;
+    color: #fcebd5;
+    border: none;
+    background: #a26a5e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .active2 {
+    background-color: #d54c2e;
+  }
+
+  /* chart */
+  canvas {
+    height: 300px !important;
+    width: 350px !important;
+  }
+
+  /* artist items page */
+  .container-items {
+    background-color: #edd5bb;
+    overflow: hidden;
+  }
+  .doshed {
+    border: 2px dashed #a26a5e;
+    position: absolute;
+    width: 45vh;
+    height: 98px;
+  }
+  .doshed p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 35px;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    color: #a26a5e;
+  }
+  .new-item {
+    background-color: #fcebd5;
+    height: 115px;
+    margin-top: 20px;
+    padding-left: 14px;
+    padding-top: 13px;
+  }
+
+  .artist-card {
+    margin-top: 50px;
+    background-color: #fcebd5;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .date-created {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #e09686;
+    margin-left: 20px !important;
+  }
+  .card-body p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .send-to-auction-btn {
+    background-color: #1b59ac;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    padding: 8px 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 13px;
+    margin-left: 16px;
+    margin-right: 10px;
+    color: #f8f8f8;
+    flex-grow: 0;
+  }
+  .remove-btn {
+    background: #d54c2e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    padding: 8px 20px;
+    margin-right: 10px;
+    margin-top: 13px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #f8f8f8;
+  }
+
+  .publish-btn {
+    padding: 8px 20px;
+    margin-top: 13px;
+    margin-right: 10px !important;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .edit-btn {
+    padding: 8px 25px;
+    margin-top: 13px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 2px;
+    color: #a26a5e;
+    border-color: #a26a5e;
+    background: #fcebd5;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  }
+  .div-buttons {
+    background-color: #a26a5e;
+    padding-bottom: 14px !important;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+  .card-title {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .card-price {
+    position: absolute;
+    width: 43px;
+    padding: 5px;
+    right: 10px;
+    bottom: 120px;
+    background: #a26a5e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    color: #fcebd5;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /* add new item page */
+  .artist-form {
+    background-color: #a26a5e;
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+  .add-new-item {
+    display: flex;
+    align-items: center;
+  }
+  .add-new-item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fcebd5;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .add-new-item label {
+    margin-top: 20px;
+    padding-left: 64px;
+  }
+  .add-new-item input {
+    background: #edd5bb;
+    mix-blend-mode: normal;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+    width: 18px;
+    height: 17px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .inputs input,
+  label {
+    display: block;
+  }
+  .inputs input {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  .inputs label {
+    margin-bottom: 0;
+  }
+  .inputs {
+    margin-left: 20px;
+  }
+  textarea {
+    box-sizing: border-box;
+    width: 95%;
+    height: 83px;
+    mix-blend-mode: normal;
+    border: 1px solid #edd5bb;
+    border-radius: 2px;
+    background-color: #a26a5e;
+    color: #edd5bb;
+    margin-bottom: 30px;
+  }
+
+  .type-price {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .type label,
+  .price2 label {
+    margin: 0;
+  }
+  .type select {
+    width: 168px;
+    height: 27px;
+    background-color: #a26a5e;
+    border: 1px solid #edd5bb;
+    color: #edd5bb;
+  }
+  .price2 input {
+    width: 168px;
+    height: 27px;
+  }
+  .type {
+    margin-right: 30px;
+  }
+  .img-url {
+    margin-left: 20px;
+  }
+  .img-url label {
+    margin: 0;
+  }
+  .img-url input {
+    width: 95%;
+  }
+  .img-url p,
+  .snapshot p {
+    text-align: center;
+    color: #fcebd5;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 40px;
+  }
+  .snapshot {
+    border: 2px dashed #fcebd5;
+    border-radius: 2px;
+    width: 42vh;
+    height: 309px;
+    margin-left: 20px;
+  }
+  .snapshot-img {
+    margin-left: 170px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  #preview {
+    height: 35.4vh;
+  }
+  .add-new-item2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  .btn1 {
+    background: #d54c2e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 154px;
+    height: 30px;
+    margin-right: 28px;
+    color: #fcebd5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+  }
+  .btn2 {
+    background: #e5e5e5;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 154px;
+    height: 30px;
+    color: #5a5a5a;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .navbar-logo {
+    background-color: #edd5bb;
+  }
+
+  /* artist capture image */
+  #captureCanvas {
+    display: none;
+  }
+  video {
+    width: 46vh;
+    height: 65vh;
+    object-fit: cover;
+    position: absolute;
+    top: 154px;
+    left: 12px;
+    right: 81px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  .fil {
+    background-color: #a26a5e;
+    height: 92vh;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  .capture-photo {
+    width: 46vh;
+    height: 30.5vh;
+    margin-left: 12px;
+    padding-top: 300px;
+
+    background-color: #c4c4c4;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .capture-icon {
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 50px;
+    height: 43.75px;
+  }
+
+  /* auction page */
+  #cardAuction {
+    border: 1px solid #d54c2e;
+    border-radius: 2px;
+    margin-top: 30px;
+  }
+  .card-title-auction {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .auc-btn {
+    align-items: center;
+    padding: 3px 8px;
+    position: absolute;
+    right: 10px;
+    bottom: 450px;
+    background: #a26a5e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    color: #fcebd5 !important;
+    margin-bottom: 50px;
+  }
+  .auc-desc {
+    margin-top: 0;
+  }
+  .timer {
+    margin-top: 20px;
+  }
+  .countdown {
+    font-weight: bold;
+  }
+  .bid {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .bid-input {
+    background-color: #edd5bb;
+    color: #a26a5e !important;
+    margin-left: 88px;
+  }
+  .bid-btn {
+    background-color: #d54c2e;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    border: none;
+    color: #fcebd5;
+  }
+  #results {
+    color: #1b59ac !important;
+  }
+  .mine {
+    background-color: #1b59ac;
+    width: 170px;
+    color: #fcebd5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 70px;
+  }
+  .his {
+    background-color: #a26a5e;
+    width: 170px;
+    color: #fcebd5;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 70px;
+  }
+  .won {
+    background: #1bac6f;
+    width: 140px;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+  }
+  .countdown {
+    margin-left: 166px;
+    font-size: 50px;
+    color: #d54c2e;
+  }
+  .ml {
+    margin-left: 160px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo-two {
+    height: 15vh;
+  }
+  .auction-icon {
+    margin-left: 0;
+  }
+  .filter-btn {
+    left: 300px;
+  }
+
+  .xmark {
+    margin-left: 305px;
+  }
+  .selected {
+    left: 298px;
+    top: 790px;
+  }
+  hr {
+    width: 338px;
+  }
+  .filter-by p {
+    top: 115px;
+  }
+  .hamburger {
+    margin-right: -12px;
+  }
+
+  .auctioning-item {
+    width: 348px;
+    margin-left: 14px;
+  }
+
+  .total-items,
+  .total-income {
+    margin-left: 6px;
+    width: 170px;
+  }
+  .doshed {
+    width: 39vh;
+  }
+
+  .edit-btn,
+  .remove-btn,
+  .publish-btn,
+  .send-to-auction-btn {
+    padding: 8px 12px;
+  }
+  .price2 input {
+    width: 123px;
+  }
+  .price input {
+    margin-left: 0;
+  }
+  input {
+    width: 103px;
+  }
+  .add-new-item label {
+    padding-left: 18px;
+  }
+
+  .snapshot {
+    width: 37vh;
+  }
+  .btn2,
+  .btn1 {
+    width: 145px;
+  }
+  .btn1 {
+    margin-right: 5px;
+  }
+  .snapshot-img {
+    margin-left: 150px;
+  }
+
+  .capture-photo {
+    width: 40vh;
+  }
+
+  video {
+    width: 40vh;
+  }
+  #artistName1,
+  #artistName,
+  #artistName3,
+  #artistName4,
+  h6 {
+    font-size: 25px;
+  }
+
+  #cardAuction {
+    margin-top: 30px;
+  }
+
+  .auc-btn {
+    bottom: 447px;
+  }
+  .content-two {
+    width: 116px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .artist,
+  .visitor {
+    margin-left: 0;
+  }
+  .street-artists {
+    width: 120px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+  .content-one1,
+  .content-one-1,
+  .content-one {
+    height: 160px;
+  }
+  .my-img {
+    left: 81px;
+  }
+  .container-items {
+    overflow: hidden;
+  }
+  .card1 {
+    height: 30vh;
+    overflow: hidden;
+    width: 36.4vh;
+  }
+  .mybtn {
+    margin-left: 240px;
+  }
+  .filter-btn {
+    left: 239px !important;
+  }
+
+  .xmark {
+    margin-left: 270px;
+  }
+  .selected {
+    left: 240px;
+  }
+  .label {
+    margin-left: 0;
+  }
+  hr {
+    width: 285px;
+  }
+  .logo-two {
+    padding-top: 42px;
+    height: 10vh;
+  }
+
+  #artistName1,
+  #artistName,
+  #artistName3,
+  #artistName4,
+  h6 {
+    font-size: 25px;
+    margin-top: 20px !important;
+  }
+
+  .hamburger {
+    margin-right: -19px;
+    width: 35px;
+    height: 20px;
+  }
+  .income h4 {
+    font-size: 35px;
+  }
+  .auctioning-item {
+    width: 296px;
+  }
+  .doshed {
+    width: 32vh;
+    height: 100px;
+  }
+  .artist-card {
+    width: 37vh;
+  }
+  .edit-btn,
+  .remove-btn,
+  .publish-btn,
+  .send-to-auction-btn {
+    padding: 5px 5px;
+  }
+  .price2 input {
+    width: 117px;
+  }
+  .type select {
+    width: 120px;
+  }
+
+  .add-new-item p {
+    font-size: 23px;
+  }
+  .snapshot {
+    width: 31vh;
+    height: 38vh;
+  }
+  .img-url p,
+  .snapshot p {
+    margin-bottom: 50px;
+  }
+  .snapshot-img {
+    margin-left: 106px;
+    margin-top: 46px;
+  }
+  .capture-photo {
+    width: 34vh;
+  }
+  video {
+    width: 34vh;
+  }
+  .total-items h4,
+  .total-income h4,
+  .auctioning-item h4 {
+    font-size: 34px;
+  }
+  .total-income p,
+  .total-items p {
+    margin-top: 20px;
+  }
+  canvas {
+    height: 323px !important;
+    width: 291px !important;
+  }
+  .btn-one,
+  .btn-three,
+  .btn-two {
+    width: 70px;
+  }
+  .navbar-nav {
+    margin-right: 80px;
+  }
+  .ml {
+    margin-left: 130px;
+  }
+  .bid-input {
+    margin-left: 46px;
+  }
+  .mine,
+  .won,
+  .his {
+    margin-left: 22px;
+  }
+  .header-artist {
+    margin-top: -40px;
+    width: 36.6vh;
+  }
+  .my-img {
+    left: 21px;
+  }
+  .content-two {
+    width: 70px;
+  }
+}
+

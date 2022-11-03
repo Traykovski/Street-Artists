@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Street Artist</title>
+    <!-- Vendor scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!--Import Google Icon Font-->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> -->
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/assets/js/bootstrap.min.js" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/fa15b4db86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <!-- landing page -->
+    <section id="landing-page">
+        <header>
+            <div class="street-artists-svg">
+                <img src="../img/Street ARTists.svg" alt="street artists" />
+            </div>
+        </header>
+        <!-- logo -->
+        <div id="logo">
+            <div class="logo">
+                <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" /></a>
+            </div>
+        </div>
+
+        <!-- sign-in artist -->
+        <div id="sign-in">
+            <div class="container vector">
+
+                <a href="#artist-home-page">
+                    <div class="artist"></div>
+                </a>
+
+                <div class="select" tabindex="1">
+                    <select class="option" id="users">
+                        <option value="">Choose</option>
+                    </select>
+                </div>
+
+                <!-- sign-in visitor -->
+                <a href="#visitor-home-page">
+                    <div class="visitor"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- visitor home page -->
+    <section id="visitor-home-page">
+        <header>
+            <div class="header-visitor">
+                <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+                <img src="../img/Street ARTists.svg" alt="street artists" class="street-artists" />
+                <img src="../img/Vector.png" alt="auction-icon" id="visitorBid" class="auction-icon">
+            </div>
+        </header>
+        <!-- hero banner -->
+        <div class="hero">
+            <div class="masterpiece d-flex">
+                <h1 class="h1"> Looking for
+                    masterpiece?</h1>
+                <a href="#visitor-listing-page" class="find">Find one now!</a>
+            </div>
+        </div>
+
+        <!-- visitor home page slider -->
+        <div class="overflow-hidden">
+            <!-- first slider -->
+            <div class="slider-container">
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+            </div>
+            <!-- second slider -->
+            <div class="slider-container-right">
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-3.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-2.png" alt="art-photo" srcset="" /></a>
+                <a href="#visitor-listing-page">
+                    <img src="../img/img-1.png" alt="art-photo" srcset="" /></a>
+            </div>
+        </div>
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active other d-flex">
+                    <img src="../img/Ellipse 1.png" srcset="" class="my-img img-fluid" alt="First slide" />
+                    <div class="content-one badge text-wrap d-block">
+                        <p class="text-white text-center mt-5 lh-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                            esse rem ex, et magni dolore.
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="content-two mr-5">
+                        <p class="text-center pl-2 pt-4 lh-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit ut
+                            aliquam, purus sit amet luctus venennatis, lectus magna
+                            fringilla uma, porttitor..
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item other d-flex">
+                    <img src="../img/Ellipse 1.png" alt="Second slide" srcset="" class="my-img img-fluid" />
+                    <div class="content-one-1 badge text-wrap d-block">
+                        <p class="text-white text-center mt-5 lh-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                            esse rem ex, et magni dolore.
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="content-two mr-5">
+                        <p class="text-center pl-2 pt-4 lh-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit ut
+                            aliquam, purus sit amet luctus venennatis, lectus magna
+                            fringilla uma, porttitor..
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item other d-flex">
+                    <img src="../img/Ellipse 1.png" alt="Third slide" srcset="" class="my-img img-fluid" />
+                    <div class="content-one1 badge text-wrap d-block">
+                        <p class="text-white text-center mt-5 lh-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                            esse rem ex, et magni dolore.
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="content-two mr-5">
+                        <p class="text-center pl-2 pt-4 ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit ut
+                            aliquam, purus sit amet luctus venennatis, lectus magna
+                            fringilla uma, porttitor..
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- visitor listing page -->
+    <section id="visitor-listing-page">
+        <header>
+            <div class="header-visitor">
+                <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+                <img src="../img/Street ARTists.svg" alt="street artists" class="street-artists" />
+                <img src="../img/Vector.png" alt="auction-icon" srcset="" class="auction-icon" id="visitorListingAuc" />
+            </div>
+        </header>
+        <!-- filter button -->
+        <a href="#visitor-filters-page" class="filter-btn">
+            <div>
+                <div class="vertical-line1"></div>
+                <div class="vertical-line2"></div>
+                <div class="vertical-line3"></div>
+                <div class="horizontal-line1"></div>
+                <div class="horizontal-line2"></div>
+                <div class="horizontal-line3"></div>
+            </div>
+
+        </a>
+
+        <!-- cards -->
+        <div id="cardContainer"></div>
+    </section>
+
+    <!-- visitor filters page -->
+    <section id="visitor-filters-page">
+        <header>
+            <div class="header-visitor">
+                <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+                <img src="../img/Street ARTists.svg" alt="street artists" class="street-artists" />
+                <img src="../img/Vector.png" alt="auction-icon" srcset="" class="auction-icon" id="visitorFilterAuc" />
+            </div>
+        </header>
+        <div class="filter">
+            <div class="filter-by">
+                <p>Filter by</p>
+                <a href="#visitor-listing-page""><span class=" xmark"><i class="fas fa-times"></i></span></a>
+            </div>
+            <div class="title">
+                <!-- <p>by item title</p> -->
+                <form action="" class="visitor-form">
+                    <label for="title">by item title</label><br>
+                    <input type="text" id="title" name="title" placeholder="Label">
+                    <hr>
+                    <br>
+
+                    <label for="artist">by artist</label><br>
+                    <select class="select-dropdown" id="artists" name="artist dropdown" tabindex="1">
+                        <option class="dropdown-artist-type" value="">Choose</option>
+                    </select><br>
+                    <hr>
+                    <p class="p">By Price</p>
+                    <div class="price">
+                        <label for="min">min:</label>
+                        <input type="text" id="min" name="min price" placeholder="Label">
+                        <label for="max" class="label">max:</label>
+                        <input type="text" id="max" name="max price" placeholder="Label">
+                    </div>
+                    <hr>
+                    <br>
+                    <label for="type">by type</label><br>
+                    <select class="select-dropdown" id="type" name="type" tabindex="1">
+                        <option class="dropdown-artist-type" value="">Choose</option>
+                    </select><br>
+                    <hr>
+                </form>
+            </div>
+            <div class="selected"><a href="#visitor-listing-page"><img src="../img/selected.png" alt="" srcset=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- artist home page -->
+    <section id="artist-home-page">
+        <!-- header -->
+        <header id="header" class="header-artist">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+
+                <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+
+                <p id="artistName1"></p>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <div class="hamburger hamburger-steps">
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                    </div>
+                </button>
+
+                <div class="collapse navbar-collapse nav-fullscreen" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-fullscreen-items text-center">
+                        <li class="nav-item active text-center nav-fullscreen-item">
+                            <a class="nav-link" href="#artist-home-page">Home</a>
+                        </li>
+                        <li class="nav-item   nav-fullscreen-item">
+                            <a class="nav-link" href="#artist-items-page">Items</a>
+                        </li>
+                        <li class="nav-item   nav-fullscreen-item">
+                            <a class="nav-link" href="#auction">Auction</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <!-- total items sold, total income and live auction -->
+        <div class="wrapper">
+            <div class="contain">
+                <div class="total-items">
+                    <p>total items sold</p>
+                    <h4 class="text-uppercase mt-2"><span id="totalItemsSold">0</span>/<span id="totalItems">0</span>
+                    </h4>
+                </div>
+                <div class="total-income">
+                    <p>total income</p>
+                    <h4 class="text-uppercase mt-2" id="">$<span id="totalIncome">0</span></h4>
+                </div>
+            </div>
+            <div class="auctioning-item">
+                <p>live auctioning item</p>
+                <h4 class="text-uppercase" >$<span id="currentBid">0</span></h4>
+                <p>current bid</p>
+            </div>
+        </div>
+
+        <!-- buttons for 7 days, 14 days and 30 days  -->
+        <div class="wrap">
+            <div class="contains">
+                <p>Display my income for last</p>
+                <div class="buttons">
+                    <button class="btn-one button-categories-link" type="button" id="last7">7 days</button>
+                    <button class="btn-two button-categories-link" type="button" id="last14">14 days</button>
+                    <button class="btn-three button-categories-link" type="button" id="last30">30 days</button>
+                </div>
+                <!-- chart -->
+                <div class="chart-container">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- artist items page -->
+    <section id="artist-items-page">
+        <div class="container-items">
+            <header>
+                <div class="header-artist">
+                    <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+                        <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+
+                        <p id="artistName"></p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+
+                            <div class="hamburger hamburger-steps">
+                                <div class="hamburger-line"></div>
+                                <div class="hamburger-line"></div>
+                                <div class="hamburger-line"></div>
+                            </div>
+                        </button>
+
+                        <div class="collapse navbar-collapse nav-fullscreen" id="navbarSupportedContent">
+                            <ul class="navbar-nav nav-fullscreen-items text-center">
+                                <li class="nav-item  text-center nav-fullscreen-item">
+                                    <a class="nav-link" href="#artist-home-page">Home</a>
+                                </li>
+                                <li class="nav-item   nav-fullscreen-item">
+                                    <a class="nav-link" href="#artist-items-page">Items</a>
+                                </li>
+                                <li class="nav-item   nav-fullscreen-item">
+                                    <a class="nav-link" href="#auction">Auction</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+
+            <!-- add new item -->
+            <div class="new-item">
+                <div class="doshed" id="createNewCardBtn">
+                    <p>+ Add new item</p>
+                </div>
+            </div>
+
+            <!-- artist cards -->
+            <div id="artist-cards">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- artist add new item page -->
+    <section id="artist-add-new-item-page">
+        <header>
+            <div class="header-artist">
+                <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+                    <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+
+                    <p id="artistName3"></p>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+
+                        <div class="hamburger hamburger-steps">
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                        </div>
+                    </button>
+
+                    <div class="collapse navbar-collapse nav-fullscreen" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-fullscreen-items text-center">
+                            <li class="nav-item  text-center nav-fullscreen-item">
+                                <a class="nav-link" href="#artist-home-page">Home</a>
+                            </li>
+                            <li class="nav-item   nav-fullscreen-item">
+                                <a class="nav-link" href="#artist-add-new-item-page">Items</a>
+                            </li>
+                            <li class="nav-item   nav-fullscreen-item">
+                                <a class="nav-link" href="#auction">Auction</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- add new item -->
+
+        <form id="addEditCard" class="artist-form">
+            <div class="add-new-item">
+                <p>Add new item</p>
+                <label for="checked">Is published</label>
+                <input type="checkbox" name="checked" id="isPublished">
+            </div>
+            <div class="inputs">
+                <label for="title1">Title</label>
+                <input type="text" id="title1" name="title1">
+                <label for="description">Description</label>
+                <textarea name="description" id="description"></textarea>
+
+            </div>
+            <div class="type-price">
+                <div class="type">
+                    <label for="type">Type</label>
+                    <select id="type">
+                        <option selected>Choose</option>
+                        <option value="painting">Painting</option>
+                        <option value="sculpture">Sculpture</option>
+                        <option value="digital">Digital</option>
+                        <option value="custom">Custom</option>
+                    </select>
+
+                </div>
+                <div class="price2">
+                    <label for="price">Price</label>
+                    <input type="text" name="price" id="price">
+                </div>
+            </div>
+            <div class="img-url">
+                <label for="imageUrl">Image URL</label>
+                <input type="url" name="imageUrl" id="imageUrl">
+                <p>or</p>
+            </div>
+            <div class="snapshot" id="snapshot">
+                <canvas id="captureCanvas"></canvas>
+                <img id="preview" src="" alt="The screen capture will appear in this box.">
+                <a href="#artist-capture-image"> <img src="../img/camera.png" alt="camera" srcset="" class="snapshot-img">
+                    <p>Take a snapshot</p>
+                </a>
+
+
+            </div>
+
+            <div class="add-new-item2">
+                <button type="submit" class="btn1" id="addNewItem">add new item</button>
+                <button type="button" class="btn2" id="cancel">Cancel</button>
+            </div>
+        </form>
+
+    </section>
+
+    <!-- artist capture image page -->
+    <section id="artist-capture-image">
+        <header>
+            <div class="header-artist">
+                <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center">
+
+                    <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+
+                    <h6 id="artistName4"></h6>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+
+                        <div class="hamburger hamburger-steps">
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                        </div>
+                    </button>
+
+                    <div class="collapse navbar-collapse nav-fullscreen" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-fullscreen-items text-center">
+                            <li class="nav-item  text-center nav-fullscreen-item">
+                                <a class="nav-link" href="#artist-home-page">Home</a>
+                            </li>
+                            <li class="nav-item   nav-fullscreen-item">
+                                <a class="nav-link" href="#artist-add-new-item-page">Items</a>
+                            </li>
+                            <li class="nav-item   nav-fullscreen-item">
+                                <a class="nav-link" href="#auction">Auction</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="fil">
+            <div class="capture-photo">
+                <video id="streamingVideo" autoplay controls preload="none"></video>
+            </div>
+            <img src="../img/camera.png" alt="camera" srcset="" class="capture-icon" id="startbutton">
+        </div>
+    </section>
+    <!-- auction page -->
+    <section id="auction">
+        <header>
+            <div class="header-visitor">
+                <a href="#"><img src="../img/Logo.svg" alt="logo" srcset="" class="logo-two" /></a>
+                <img src="../img/Street ARTists.svg" alt="street artists" class="street-artists" />
+                <a href="#auction"><img src="../img/Vector.png" alt="auction-icon" srcset="" class="auction-icon" /></a>
+            </div>
+        </header>
+
+        <div id="cardAuction"></div>
+        <div class="timer">
+            <p class="h2 ml">Ending in</p>
+            <span id="countdown" class="countdown"></span>
+
+        </div>
+
+        <div class="bid">
+            <input type="number" id="bidAmount" class="bid-input">
+            <button type="button" class=" bid-btn">Place a Bid</button>
+            <ul id="auctionResults"></ul>
+        </div>
+    </section>
+    <!-- data -->
+    <script src="../data/data.js"></script>
+
+    <!-- my scripts -->
+
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+
+    <script defer src="../app/main.js"></script>
+    <script src="../app/landingPage.js"></script>
+    <script src="../app/visitorHomePage.js"></script>
+    <script src="../app/visitorListingPage.js"></script>
+    <script src="../app/visitorFilters.js"></script>
+    <script src="../app/artistHomePage.js"></script>
+    <script src="../app/artistItemsPage.js"></script>
+    <script src="../app/artistAddNewItemPage.js"></script>
+    <script src="../app/artistCaptureImage.js"></script>
+    <script src="../app/auction.js"></script>
+</body>
+
+</html>
