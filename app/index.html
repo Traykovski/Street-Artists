@@ -237,18 +237,21 @@
             </div>
         </header>
         <!-- filter button -->
-        <a href="#visitor-filters-page" class="filter-btn">
-            <div>
-                <div class="vertical-line1"></div>
-                <div class="vertical-line2"></div>
-                <div class="vertical-line3"></div>
-                <div class="horizontal-line1"></div>
-                <div class="horizontal-line2"></div>
-                <div class="horizontal-line3"></div>
+        <div class="wrap-up">
+            <div class="filter-btn">
+                <a href="#visitor-filters-page">
+                    <!-- <div> -->
+                    <div class="vertical-line1"></div>
+                    <div class="vertical-line2"></div>
+                    <div class="vertical-line3"></div>
+                    <div class="horizontal-line1"></div>
+                    <div class="horizontal-line2"></div>
+                    <div class="horizontal-line3"></div>
+                    <!-- </div> -->
+
+                </a>
             </div>
-
-        </a>
-
+        </div>
         <!-- cards -->
         <div id="cardContainer"></div>
     </section>
@@ -354,7 +357,7 @@
             </div>
             <div class="auctioning-item">
                 <p>live auctioning item</p>
-                <h4 class="text-uppercase" >$<span id="currentBid">0</span></h4>
+                <h4 class="text-uppercase">$<span id="currentBid">0</span></h4>
                 <p>current bid</p>
             </div>
         </div>
@@ -509,7 +512,8 @@
             <div class="snapshot" id="snapshot">
                 <canvas id="captureCanvas"></canvas>
                 <img id="preview" src="" alt="The screen capture will appear in this box.">
-                <a href="#artist-capture-image"> <img src="../img/camera.png" alt="camera" srcset="" class="snapshot-img">
+                <a href="#artist-capture-image"> <img src="../img/camera.png" alt="camera" srcset=""
+                        class="snapshot-img">
                     <p>Take a snapshot</p>
                 </a>
 

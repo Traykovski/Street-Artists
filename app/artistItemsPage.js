@@ -54,7 +54,7 @@ function createCards(item) {
 
   const sendToAuctionBtn = document.createElement("button");
   sendToAuctionBtn.textContent = "Send to Auction";
-  sendToAuctionBtn.classList.add("btn", "send-to-auction-btn");
+  sendToAuctionBtn.classList.add("btn", "send-to-auction-btn", "btn-block");
 
   sendToAuctionBtn.addEventListener("click", function () {
     const { description, price, artist, title, image, isAuctioning, dateSold } = item;
@@ -102,7 +102,7 @@ function createCards(item) {
 
   const removeBtn = document.createElement("button");
   removeBtn.textContent = "Remove";
-  removeBtn.classList.add("btn", "remove-btn");
+  removeBtn.classList.add("btn", "remove-btn", "btn-block");
 
   removeBtn.addEventListener("click", function () {
     mainDiv.remove();
@@ -110,7 +110,7 @@ function createCards(item) {
 
   const editButton = document.createElement("button");
   editButton.textContent = "Edit";
-  editButton.classList.add("btn", "btn-primary", "edit-btn");
+  editButton.classList.add("btn", "btn-primary", "edit-btn", "btn-block");
 
   editButton.addEventListener("click", function () {
     fillCreateItemForm(item);
@@ -122,6 +122,7 @@ function createCards(item) {
   publishButton.textContent = isPublished ? "Unpublish" : "Publish";
   publishButton.classList.add(
     "btn",
+    "btn-block",
     "mx-1",
     "publish-btn",
     `btn-${isPublished ? "success" : "light"}`
