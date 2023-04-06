@@ -1,1 +1,1 @@
-This is my second project for "Brainster.co".
+This is my second project.
