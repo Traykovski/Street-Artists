@@ -394,7 +394,7 @@
 
   /* filter button */
   .wrap-up {
-    position:relative;
+    position: relative;
   }
   .filter-btn {
     display: flex;
@@ -717,6 +717,7 @@
   }
   .buttons {
     display: flex;
+    justify-content: space-evenly;
   }
   .wrap {
     background-color: #fcebd5;
@@ -734,8 +735,8 @@
   }
   .btn-one,
   .btn-three {
-    width: 100px;
-    height: 27px;
+    width: 20%;
+    height: auto;
     color: #fcebd5;
     border: none;
     background: #a26a5e;
@@ -743,15 +744,15 @@
     border-radius: 2px;
   }
   .btn-two {
-    width: 100px;
-    height: 27px;
+    width: 20%;
+    height: auto;
     color: #fcebd5;
     border: none;
     background: #a26a5e;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
   }
   .active2 {
     background-color: #d54c2e;
@@ -770,9 +771,9 @@
   }
   .doshed {
     border: 2px dashed #a26a5e;
-    position: absolute;
-    width: 45vh;
-    height: 98px;
+    /* position: absolute; */
+    width: 95%;
+    height: 85%;
   }
   .doshed p {
     font-style: normal;
@@ -817,14 +818,14 @@
     background-color: #1b59ac;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
     margin-top: 13px;
-    margin-left: 16px;
-    margin-right: 10px;
+    /* margin-left: 16px; */
+    /* margin-right: 10px; */
     color: #f8f8f8;
     flex-grow: 0;
   }
@@ -832,8 +833,8 @@
     background: #d54c2e;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    padding: 8px 15px;
-    margin-right: 10px;
+    /* padding: 8px 15px; */
+    /* margin-right: 10px; */
     margin-top: 13px;
     font-weight: 700;
     font-size: 12px;
@@ -842,9 +843,9 @@
   }
 
   .publish-btn {
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
     margin-top: 13px;
-    margin-right: 10px !important;
+    /* margin-right: 10px !important; */
     border-radius: 2px;
     font-weight: 700;
     font-size: 12px;
@@ -852,7 +853,7 @@
   }
 
   .edit-btn {
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
     margin-top: 13px;
     font-weight: 700;
     font-size: 12px;
@@ -866,6 +867,8 @@
   .div-buttons {
     background-color: #a26a5e;
     padding-bottom: 14px !important;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .card-body {
@@ -896,7 +899,7 @@
   .artist-form {
     background-color: #a26a5e;
     padding-right: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
   }
   .add-new-item {
     display: flex;
@@ -953,7 +956,8 @@
 
   .type-price {
     display: flex;
-    margin-left: 20px;
+    justify-content: space-evenly;
+    /* margin-left: 20px; */
     margin-bottom: 20px;
   }
   .type label,
@@ -962,7 +966,7 @@
   }
   .type select {
     width: 168px;
-    height: 27px;
+    height: 25px;
     background-color: #a26a5e;
     border: 1px solid #edd5bb;
     color: #edd5bb;
@@ -971,9 +975,9 @@
     width: 168px;
     height: 27px;
   }
-  .type {
+  /* .type {
     margin-right: 30px;
-  }
+  } */
   .img-url {
     margin-left: 20px;
   }
@@ -983,8 +987,7 @@
   .img-url input {
     width: 95%;
   }
-  .img-url p,
-  .snapshot p {
+  .img-url p {
     text-align: center;
     color: #fcebd5;
     font-style: normal;
@@ -993,20 +996,36 @@
     line-height: 21px;
     padding-left: 40px;
   }
+  /* .snapshot p {
+    text-align: center;
+    color: #fcebd5;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 40px;
+  } */
   .snapshot {
     border: 2px dashed #fcebd5;
     border-radius: 2px;
-    width: 42vh;
-    height: 309px;
-    margin-left: 20px;
+    height: 30vh;
+    margin-left: 5px;
+    /* width: 42vh; */
+    /* height: 309px; */
+    /* margin-left: 20px; */
   }
   .snapshot-img {
-    margin-left: 170px;
+    /* margin-left: 170px;
     margin-top: 100px;
+    margin-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
     margin-bottom: 10px;
   }
   #preview {
-    height: 35.4vh;
+    height: 100%;
+    width: 100%;
   }
   .add-new-item2 {
     display: flex;
@@ -1050,10 +1069,10 @@
     display: none;
   }
   video {
-    width: 46vh;
-    height: 65vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    position: absolute;
+    /* position: absolute; */
     top: 154px;
     left: 12px;
     right: 81px;
@@ -1067,11 +1086,11 @@
     overflow: hidden;
   }
   .capture-photo {
-    width: 46vh;
-    height: 30.5vh;
-    margin-left: 12px;
-    padding-top: 300px;
-
+    width: 95%;
+    height: 85%;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding-top: 184px; */
     background-color: #c4c4c4;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
@@ -1218,16 +1237,16 @@
     margin-left: 6px;
     width: 170px;
   }
-  .doshed {
+  /* .doshed {
     width: 39vh;
-  }
+  } */
 
-  .edit-btn,
+  /* .edit-btn,
   .remove-btn,
   .publish-btn,
   .send-to-auction-btn {
     padding: 8px 12px;
-  }
+  } */
   .price2 input {
     width: 123px;
   }
@@ -1241,9 +1260,9 @@
     padding-left: 18px;
   }
 
-  .snapshot {
+  /* .snapshot {
     width: 37vh;
-  }
+  } */
   .btn2,
   .btn1 {
     width: 145px;
@@ -1251,9 +1270,9 @@
   .btn1 {
     margin-right: 5px;
   }
-  .snapshot-img {
+  /* .snapshot-img {
     margin-left: 150px;
-  }
+  } */
 
   .capture-photo {
     width: 40vh;
@@ -1352,19 +1371,19 @@
   .auctioning-item {
     width: 296px;
   }
-  .doshed {
+  /* .doshed {
     width: 32vh;
     height: 100px;
-  }
+  } */
   .artist-card {
     width: 37vh;
   }
-  .edit-btn,
+  /* .edit-btn,
   .remove-btn,
   .publish-btn,
   .send-to-auction-btn {
     padding: 5px 5px;
-  }
+  } */
   .price2 input {
     width: 117px;
   }
@@ -1375,18 +1394,18 @@
   .add-new-item p {
     font-size: 23px;
   }
-  .snapshot {
+  /* .snapshot {
     width: 31vh;
     height: 38vh;
-  }
+  } */
   .img-url p,
   .snapshot p {
     margin-bottom: 50px;
   }
-  .snapshot-img {
+  /* .snapshot-img {
     margin-left: 106px;
     margin-top: 46px;
-  }
+  } */
   .capture-photo {
     width: 34vh;
   }
@@ -1427,7 +1446,7 @@
   }
   .header-artist {
     margin-top: -40px;
-    width: 36.6vh;
+    width: 98%;
   }
   .my-img {
     left: 21px;

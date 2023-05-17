@@ -1,7 +1,6 @@
 let currentUser;
 let editingItem;
-// let cardPrice = document.createElement("p");
-// const cardTitle = document.createElement("p");
+
 // to close the hamburger when you click in the menu
 $(document).on("click", function () {
   return $(".navbar-collapse").removeClass("show");
@@ -19,8 +18,7 @@ function handleRoute() {
   allPages.forEach((page) => (page.style.display = "none"));
 
   if (hash) {
-    // const landingPage = document.querySelector(".landing-page");
-    // landingPage.style.display = "block";
+    
     document.querySelector(hash).style.display = "block";
   }
 
