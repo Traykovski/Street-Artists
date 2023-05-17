@@ -1026,7 +1026,7 @@
 
   .snapshot-img img {
     position: absolute;
-    /* bottom: 60px; */
+    bottom: 1.5rem;
 
   }
   #preview {
@@ -1092,7 +1092,7 @@
     overflow: hidden;
   }
   .capture-photo {
-    width: 95%;
+    width: 100%;
     height: 85%;
     margin-left: 10px;
     margin-right: 10px;
