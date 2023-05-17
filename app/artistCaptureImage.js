@@ -6,6 +6,15 @@ function initArtistCaptureImage() {
   const captureCanvas = document.querySelector("#captureCanvas");
   const previewImg = document.querySelector("#preview");
 
+   // Hide the preview image if src is empty
+   previewImg.onload = function() {
+    if (previewImg.src == "") {
+      previewImg.classList.add('hidden');
+    } else {
+      previewImg.classList.remove('hidden');
+    }
+  };
+
   streamingVideo.setAttribute("playsinline", true);
   streamingVideo.setAttribute("controls", true);
   setTimeout(() => {
