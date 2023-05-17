@@ -900,7 +900,7 @@
     background-color: #a26a5e;
     padding-right: 10px;
     padding-left: 10px;
-    height: 120vh;
+    /* height: 100vh; */
   }
   .add-new-item {
     display: flex;
@@ -1010,8 +1010,9 @@
     border: 2px dashed #fcebd5;
     border-radius: 2px;
     width: 97%;
-    height: 30%;
+    height: 30vh;
     margin-left: 5px;
+    
     /* width: 42vh; */
     /* height: 309px; */
     /* margin-left: 20px; */
@@ -1028,7 +1029,7 @@
     align-items: center;
     justify-content: center;
     /* padding-top: 4rem; */
-    padding-top: 20%;
+    /* padding-top: 20%; */
     margin-bottom: 10px;
   }
 
