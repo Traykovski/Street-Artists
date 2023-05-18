@@ -1,5 +1,5 @@
 function initLandingPage() {
-  console.log("This is js for landing page");
+  // console.log("This is js for landing page");
 
   populateSelect();
 }

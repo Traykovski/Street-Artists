@@ -15,6 +15,8 @@ function initArtistCaptureImage() {
     }
   };
 
+  
+
   streamingVideo.setAttribute("playsinline", true);
   streamingVideo.setAttribute("controls", true);
   setTimeout(() => {
